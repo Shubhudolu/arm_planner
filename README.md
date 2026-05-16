@@ -36,6 +36,11 @@ The program generates:
 - `output/trajectory.gif` - 3D animation of arm movement
 ## How to Run
 ### Execute
+-First open the root folder arm_planner in VS code.
+-Then execute main.py using the following command in powershell.
 ```bash(Mine was done in Windows)
 python3 main.py
 ```
+-Then execute test_fk.py inside thet tests folder using the following command
+```bash(Mine was done in Windows)
+python3 test_fk.py
