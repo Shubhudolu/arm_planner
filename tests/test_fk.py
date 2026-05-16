@@ -3,11 +3,6 @@ tests/test_fk.py
 ================
 Pick one known joint config, compute FK, compare end-effector pose
 against a roboticstoolbox-python-equivalent reference to at least 1e-4.
-
-Reference values were computed independently using the Rodriguez rotation
-formula (same math as roboticstoolbox-python's DHRobot FK), serving as
-the ground-truth for tolerance checking.
-
 Usage
 -----
     python tests/test_fk.py
