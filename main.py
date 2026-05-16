@@ -1,9 +1,10 @@
 import numpy as np
-from arm_planner.urdf import SimpleRobot
-from arm_planner.kinematics import Kinematics
+
 from arm_planner.trajectory import TrajectoryPlanner
 from arm_planner.collision import CollisionDetector
 from arm_planner.visualize import Visualizer
+from arm_planner.urdf import SimpleRobot
+from arm_planner.kinematics import Kinematics
 
 def main():
     print("=" * 60)
